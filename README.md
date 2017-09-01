@@ -6,7 +6,7 @@ This container contains the necessary to perform Optical Character Recognition.
 - OpenCV 3.3.0
 
 # Getting container
-Run `docker pull petronetto/alpine-ocr-python`
+Run `docker pull petronetto/alpine-opencv-python`
 
 # License
 [BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause)
