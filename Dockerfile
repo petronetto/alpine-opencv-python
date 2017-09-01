@@ -36,7 +36,6 @@ ENV OPENCV_VER 3.3.0
 ENV CC /usr/bin/clang
 ENV CXX /usr/bin/clang++
 
-# RUN apk -U add curl make cmake clang clang-dev linux-headers musl-dev gcc g++ build-base ninja
 RUN apk add -U --no-cache --virtual=build-dependencies \
     linux-headers musl libxml2-dev libxslt-dev libffi-dev g++ \
     musl-dev libgcc openssl-dev jpeg-dev zlib-dev freetype-dev build-base \
